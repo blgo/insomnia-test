@@ -1,17 +1,17 @@
-_id: req_1f85706cadab46a29bbd6583e51b70b1
+_id: req_87e2722414cb4f169ed3a41a307f777c
 type: Request
 parentId: wrk_78a025d623e84604be9e0170ae740ffd
-modified: 1639516347567
-created: 1639514681562
-url: https://httpbin.org/get
-name: simple get
+modified: 1639516358239
+created: 1639516354489
+url: https://httpbin.org/headers
+name: headers intronspection
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
 authentication: {}
-metaSortKey: -1639514681562
+metaSortKey: -1639516354489
 isPrivate: false
 settingStoreCookies: true
 settingSendCookies: true

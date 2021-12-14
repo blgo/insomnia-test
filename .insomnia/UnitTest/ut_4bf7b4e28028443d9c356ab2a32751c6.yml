@@ -1,0 +1,13 @@
+_id: ut_4bf7b4e28028443d9c356ab2a32751c6
+type: UnitTest
+parentId: uts_096dac1e1dfb405797b345a2e314d723
+modified: 1639516859613
+created: 1639516379438
+requestId: req_87e2722414cb4f169ed3a41a307f777c
+name: Query from insomnia
+code: |
+  const response1 = await insomnia.send();
+  const body = JSON.parse(response1.data);
+  expect(body).to.be.an('object');
+  expect(body.headers).to.have.property('User-Agent');
+  expect(body.headers['User-Agent']).to.include('insomnia');
