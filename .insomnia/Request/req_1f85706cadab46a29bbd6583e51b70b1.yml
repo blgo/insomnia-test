@@ -1,9 +1,9 @@
 _id: req_1f85706cadab46a29bbd6583e51b70b1
 type: Request
 parentId: wrk_78a025d623e84604be9e0170ae740ffd
-modified: 1639514681562
+modified: 1639516101846
 created: 1639514681562
-url: ""
+url: https://httpbin.org/get
 name: test1
 description: ""
 method: GET
