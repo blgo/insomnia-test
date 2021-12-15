@@ -12,6 +12,9 @@ npm install --global insomnia-inso
 
 https://docs.insomnia.rest/insomnia/unit-testing
 
+Chaining requests: simulating a Login
+https://github.com/Kong/insomnia/issues/2744
+
 
 ## Run tests
 
