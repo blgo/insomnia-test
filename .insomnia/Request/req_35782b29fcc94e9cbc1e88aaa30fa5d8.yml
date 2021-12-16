@@ -1,0 +1,25 @@
+_id: req_35782b29fcc94e9cbc1e88aaa30fa5d8
+type: Request
+parentId: wrk_78a025d623e84604be9e0170ae740ffd
+modified: 1639556963977
+created: 1639556941826
+url: https://httpbin.org/cookies/set
+name: Set cookie (simulate a login)
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_1512141038e24fc5aa6194f4fb866b7b
+    name: freeform
+    value: asdasds
+    description: ""
+headers: []
+authentication: {}
+metaSortKey: -1639556941826
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
