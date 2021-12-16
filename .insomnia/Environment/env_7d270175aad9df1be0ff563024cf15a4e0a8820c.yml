@@ -1,11 +1,14 @@
 _id: env_7d270175aad9df1be0ff563024cf15a4e0a8820c
 type: Environment
 parentId: wrk_78a025d623e84604be9e0170ae740ffd
-modified: 1639514655120
+modified: 1639659600296
 created: 1639514655120
 name: Base Environment
-data: {}
-dataPropertyOrder: null
+data:
+  cookie: cookiewasset
+dataPropertyOrder:
+  "&":
+    - cookie
 color: null
 isPrivate: false
 metaSortKey: 1639514655120
