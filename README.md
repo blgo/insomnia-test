@@ -5,7 +5,7 @@
 https://docs.insomnia.rest/inso-cli/install
 
 ```bash
-npm install --global insomnia-inso
+npm install
 ```
 
 ## Integration Test: Insomnia "Unit" tests
@@ -21,5 +21,5 @@ https://github.com/Kong/insomnia/issues/2744
 https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-run-test
 
 ```bash
-inso run test "test"
+npm test
 ```

@@ -1,0 +1,13 @@
+{
+  "name": "insomnia-test",
+  "scripts": {
+    "test": "inso run test \"test\""
+  },
+  "bugs": {
+    "url": "https://github.com/blgo/insomnia-test/issues"
+  },
+  "homepage": "https://github.com/blgo/insomnia-test#readme",
+  "dependencies": {
+    "insomnia-inso": "^2.4.1"
+  }
+}
