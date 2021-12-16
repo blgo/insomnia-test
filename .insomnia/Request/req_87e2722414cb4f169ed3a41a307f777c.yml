@@ -1,7 +1,7 @@
 _id: req_87e2722414cb4f169ed3a41a307f777c
 type: Request
 parentId: wrk_78a025d623e84604be9e0170ae740ffd
-modified: 1639516358239
+modified: 1639665008178
 created: 1639516354489
 url: https://httpbin.org/headers
 name: headers intronspection
@@ -9,7 +9,13 @@ description: ""
 method: GET
 body: {}
 parameters: []
-headers: []
+headers:
+  - id: pair_ea705b78b6b04c658f854c252318917b
+    name: Cookie
+    value: freeform={% response 'body', 'req_35782b29fcc94e9cbc1e88aaa30fa5d8',
+      'b64::JC5jb29raWVzLmZyZWVmb3Jt::46b', 'never', 60 %}
+    description: ""
+    disabled: false
 authentication: {}
 metaSortKey: -1639516354489
 isPrivate: false
