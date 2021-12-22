@@ -11,8 +11,8 @@ jobs:
       - uses: kong/setup-inso@v1
         with:
           inso-version: 2.4.0
-      - name: Lint
-        run: inso lint spec --ci
+#       - name: Lint
+#         run: inso lint spec --ci
       - name: Run test suites
         run: inso run test --ci
       - name: Generate declarative config
