@@ -3,7 +3,7 @@ name: Test
 on: [push, pull_request]
 jobs:
   Linux:
-    name: Validate API spec
+    name: Test API
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -12,8 +12,8 @@ jobs:
         with:
           inso-version: 2.4.0
 #       - name: Lint
-#         run: inso lint spec --ci
+#         run: inso lint spec "my-spec.yaml" --ci
       - name: Run test suites
-        run: inso run test --ci
+        run: inso run test "my-spec.yaml" --ci
       - name: Generate declarative config
-        run: inso generate config --type declarative --ci
+        run: inso generate config "my-spec.yaml" --type declarative --ci
