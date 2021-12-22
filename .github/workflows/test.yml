@@ -1,6 +1,6 @@
 
 name: Test
-
+on: [push]
 jobs:
   Linux:
     name: Validate API spec
