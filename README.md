@@ -23,3 +23,7 @@ https://docs.insomnia.rest/inso-cli/cli-command-reference/inso-run-test
 ```bash
 npm test
 ```
+
+## CI config
+
+https://docs.insomnia.rest/inso-cli/continuous-integration
