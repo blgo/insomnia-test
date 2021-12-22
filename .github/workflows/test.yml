@@ -1,6 +1,6 @@
 
 name: Test
-on: [push]
+on: [push, pull_request]
 jobs:
   Linux:
     name: Validate API spec
@@ -12,8 +12,8 @@ jobs:
         with:
           inso-version: 2.4.0
       - name: Lint
-        run: inso lint spec "Designer Demo" --ci
+        run: inso lint spec --ci
       - name: Run test suites
-        run: inso run test "Designer Demo" --env UnitTest --ci
+        run: inso run test --ci
       - name: Generate declarative config
-        run: inso generate config "Designer Demo" --type declarative --ci
+        run: inso generate config --type declarative --ci
