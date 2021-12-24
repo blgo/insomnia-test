@@ -1,9 +1,8 @@
-
-name: Test
+name: Integration Test
 on: [push]
 jobs:
   Linux:
-    name: Test API
+    name: Run Integration Tests
     runs-on: ubuntu-latest
     steps:
       - name: Checkout branch
@@ -14,6 +13,4 @@ jobs:
 #       - name: Lint
 #         run: inso lint spec "my-spec.yaml" --ci
       - name: Run test suites
-        run: inso run test "test" --ci
-      - name: Generate declarative config
-        run: inso generate config "my-spec.yaml" --type declarative --ci
+        run: inso run test "test"
