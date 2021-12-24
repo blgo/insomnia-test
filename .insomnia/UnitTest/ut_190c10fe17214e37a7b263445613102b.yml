@@ -1,0 +1,13 @@
+_id: ut_190c10fe17214e37a7b263445613102b
+type: UnitTest
+parentId: uts_096dac1e1dfb405797b345a2e314d723
+modified: 1640368505845
+created: 1640368396096
+requestId: req_1f85706cadab46a29bbd6583e51b70b1
+name: "Demostrates chaining two or more requests: Returns 200 twice!"
+code: |-
+  const response1 = await insomnia.send('req_1f85706cadab46a29bbd6583e51b70b1');
+  expect(response1.status).to.equal(200);
+
+  const response2 = await insomnia.send();
+  expect(response2.status).to.equal(200);
