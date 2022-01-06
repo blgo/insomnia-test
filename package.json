@@ -2,6 +2,7 @@
   "name": "insomnia-test",
   "scripts": {
     "test": "inso run test \"test\"",
+    "test:har": "inso run test \"imported requests\"",
     "har:export": "insomnia-import har-export.har > insomnia-export.json"
   },
   "bugs": {
