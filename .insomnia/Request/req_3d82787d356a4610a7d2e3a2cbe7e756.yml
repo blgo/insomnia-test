@@ -1,0 +1,21 @@
+_id: req_3d82787d356a4610a7d2e3a2cbe7e756
+type: Request
+parentId: wrk_78a025d623e84604be9e0170ae740ffd
+modified: 1641478253847
+created: 1641478150406
+url: https://httpbin.org/status/400
+name: return 400 error request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1641478150406
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
