@@ -1,0 +1,373 @@
+{
+  "_type": "export",
+  "__export_format": 4,
+  "__export_date": "2022-01-06T00:40:49.500Z",
+  "__export_source": "insomnia.importers:v0.1.0",
+  "resources": [
+    {
+      "parentId": "__WORKSPACE_ID__",
+      "name": "https://httpbin.org/status/100",
+      "url": "https://httpbin.org/status/100",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Host",
+          "value": "httpbin.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0"
+        },
+        {
+          "name": "Accept",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en;q=0.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Referer",
+          "value": "https://httpbin.org/"
+        },
+        {
+          "name": "DNT",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "value": "same-origin"
+        },
+        {
+          "name": "Sec-GPC",
+          "value": "1"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "TE",
+          "value": "trailers"
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "__REQ_1__",
+      "method": "GET"
+    },
+    {
+      "parentId": "__WORKSPACE_ID__",
+      "name": "https://httpbin.org/status/200",
+      "url": "https://httpbin.org/status/200",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Host",
+          "value": "httpbin.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0"
+        },
+        {
+          "name": "Accept",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en;q=0.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Referer",
+          "value": "https://httpbin.org/"
+        },
+        {
+          "name": "DNT",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "value": "same-origin"
+        },
+        {
+          "name": "Sec-GPC",
+          "value": "1"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "TE",
+          "value": "trailers"
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "__REQ_2__",
+      "method": "GET"
+    },
+    {
+      "parentId": "__WORKSPACE_ID__",
+      "name": "https://httpbin.org/status/300",
+      "url": "https://httpbin.org/status/300",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Host",
+          "value": "httpbin.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0"
+        },
+        {
+          "name": "Accept",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en;q=0.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Referer",
+          "value": "https://httpbin.org/"
+        },
+        {
+          "name": "DNT",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "value": "same-origin"
+        },
+        {
+          "name": "Sec-GPC",
+          "value": "1"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "TE",
+          "value": "trailers"
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "__REQ_3__",
+      "method": "GET"
+    },
+    {
+      "parentId": "__WORKSPACE_ID__",
+      "name": "https://httpbin.org/status/400",
+      "url": "https://httpbin.org/status/400",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Host",
+          "value": "httpbin.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0"
+        },
+        {
+          "name": "Accept",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en;q=0.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Referer",
+          "value": "https://httpbin.org/"
+        },
+        {
+          "name": "DNT",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "value": "same-origin"
+        },
+        {
+          "name": "Sec-GPC",
+          "value": "1"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "TE",
+          "value": "trailers"
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "__REQ_4__",
+      "method": "GET"
+    },
+    {
+      "parentId": "__WORKSPACE_ID__",
+      "name": "https://httpbin.org/status/500",
+      "url": "https://httpbin.org/status/500",
+      "body": {},
+      "parameters": [],
+      "headers": [
+        {
+          "name": "Host",
+          "value": "httpbin.org"
+        },
+        {
+          "name": "User-Agent",
+          "value": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101 Firefox/95.0"
+        },
+        {
+          "name": "Accept",
+          "value": "text/plain"
+        },
+        {
+          "name": "Accept-Language",
+          "value": "en-GB,en;q=0.5"
+        },
+        {
+          "name": "Accept-Encoding",
+          "value": "gzip, deflate, br"
+        },
+        {
+          "name": "Referer",
+          "value": "https://httpbin.org/"
+        },
+        {
+          "name": "DNT",
+          "value": "1"
+        },
+        {
+          "name": "Connection",
+          "value": "keep-alive"
+        },
+        {
+          "name": "Sec-Fetch-Dest",
+          "value": "empty"
+        },
+        {
+          "name": "Sec-Fetch-Mode",
+          "value": "cors"
+        },
+        {
+          "name": "Sec-Fetch-Site",
+          "value": "same-origin"
+        },
+        {
+          "name": "Sec-GPC",
+          "value": "1"
+        },
+        {
+          "name": "Pragma",
+          "value": "no-cache"
+        },
+        {
+          "name": "Cache-Control",
+          "value": "no-cache"
+        },
+        {
+          "name": "TE",
+          "value": "trailers"
+        }
+      ],
+      "authentication": {},
+      "_type": "request",
+      "_id": "__REQ_5__",
+      "method": "GET"
+    }
+  ]
+}

@@ -1,13 +1,15 @@
 {
   "name": "insomnia-test",
   "scripts": {
-    "test": "inso run test \"test\""
+    "test": "inso run test \"test\"",
+    "har:export": "insomnia-import har-export.har > insomnia-export.json"
   },
   "bugs": {
     "url": "https://github.com/blgo/insomnia-test/issues"
   },
   "homepage": "https://github.com/blgo/insomnia-test#readme",
   "dependencies": {
+    "insomnia-importers": "^2.4.1",
     "insomnia-inso": "^2.4.1"
   }
 }
