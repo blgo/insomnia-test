@@ -1,0 +1,67 @@
+_id: req_71597ff0551a4aa3976a0996b374449f
+type: Request
+parentId: wrk_78a025d623e84604be9e0170ae740ffd
+modified: 1641429769261
+created: 1641429746738
+url: https://httpbin.org/status/100
+name: https://httpbin.org/status/100
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Host
+    value: httpbin.org
+    id: pair_640ed7861b914d30ae85cf6b5056da47
+  - name: User-Agent
+    value: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101
+      Firefox/95.0
+    id: pair_f029894c088f417d97d54449bf1308d6
+  - name: Accept
+    value: text/plain
+    id: pair_14ef35ad52a64ce1a83da21f345f0298
+  - name: Accept-Language
+    value: en-GB,en;q=0.5
+    id: pair_3b609f783a8347e5baf59a2a45750e33
+  - name: Accept-Encoding
+    value: gzip, deflate, br
+    id: pair_ee87fc78e6cd4da89b47a171b28e0336
+  - name: Referer
+    value: https://httpbin.org/
+    id: pair_5f6c4c89a472481d9a8d586b28ff1622
+  - name: DNT
+    value: "1"
+    id: pair_296b9115e8204d44a1907fe295517de6
+  - name: Connection
+    value: keep-alive
+    id: pair_fcd2cb9d16854b6eba3f32f56d86e8f7
+  - name: Sec-Fetch-Dest
+    value: empty
+    id: pair_201fc38f1bf546fda0a7c017270a17d4
+  - name: Sec-Fetch-Mode
+    value: cors
+    id: pair_70133f355a294a0ca6ef261ca51a520a
+  - name: Sec-Fetch-Site
+    value: same-origin
+    id: pair_9f1111348daf491ebb8ea9764f9c7997
+  - name: Sec-GPC
+    value: "1"
+    id: pair_c3f98c9b78fc4a5980df44d26b5750b2
+  - name: Pragma
+    value: no-cache
+    id: pair_fd05936db40a4abaa5fea8a9d908bffb
+  - name: Cache-Control
+    value: no-cache
+    id: pair_4f8402c8ce6e4b32a0b45300b2b03151
+  - name: TE
+    value: trailers
+    id: pair_f869113f4bf74201be16ba118a722701
+authentication: {}
+metaSortKey: -1641429746738
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

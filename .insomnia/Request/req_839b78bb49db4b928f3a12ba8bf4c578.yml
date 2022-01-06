@@ -1,0 +1,52 @@
+_id: req_839b78bb49db4b928f3a12ba8bf4c578
+type: Request
+parentId: wrk_78a025d623e84604be9e0170ae740ffd
+modified: 1641429746735
+created: 1641429746735
+url: https://httpbin.org/status/300
+name: https://httpbin.org/status/300
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: Host
+    value: httpbin.org
+  - name: User-Agent
+    value: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:95.0) Gecko/20100101
+      Firefox/95.0
+  - name: Accept
+    value: text/plain
+  - name: Accept-Language
+    value: en-GB,en;q=0.5
+  - name: Accept-Encoding
+    value: gzip, deflate, br
+  - name: Referer
+    value: https://httpbin.org/
+  - name: DNT
+    value: "1"
+  - name: Connection
+    value: keep-alive
+  - name: Sec-Fetch-Dest
+    value: empty
+  - name: Sec-Fetch-Mode
+    value: cors
+  - name: Sec-Fetch-Site
+    value: same-origin
+  - name: Sec-GPC
+    value: "1"
+  - name: Pragma
+    value: no-cache
+  - name: Cache-Control
+    value: no-cache
+  - name: TE
+    value: trailers
+authentication: {}
+metaSortKey: -1641429746735
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
